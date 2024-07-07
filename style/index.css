@@ -86,14 +86,22 @@ nav > ul > li > a > button {
   padding-left: 20px;
 }
 
+/* main section */
+.main {
+  width: 1000px;
+  margin: 100px auto;
+  background-color: antiquewhite;
+  padding: 50px;
+}
+
 /* about section */
-.about {
+/* .about {
   background-color: antiquewhite;
   border-radius: 5px;
   width: 700px;
   margin: 100px auto;
   padding: 50px;
-}
+} */
 
 .about h1 {
   font-size: 35px;
