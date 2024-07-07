@@ -6,6 +6,7 @@
 }
 /* header style */
 .header {
+  background-color: antiquewhite;
   background-image: url("../images/developer.png"),
     url("../images/header_bg.png");
   background-repeat: no-repeat;
@@ -58,7 +59,7 @@ nav > ul > li > a > button {
   margin-top: 20px;
   border-radius: 5px;
   color: #fd6e0a;
-  background-color: white;
+  background-color: antiquewhite;
   margin-left: 10px;
 }
 .banner {
@@ -83,4 +84,35 @@ nav > ul > li > a > button {
 .banner img {
   width: 500px;
   padding-left: 20px;
+}
+
+/* about section */
+.about {
+  background-color: antiquewhite;
+  border-radius: 5px;
+  width: 700px;
+  margin: 100px auto;
+  padding: 50px;
+}
+
+.about h1 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-paragrap {
+  text-align: center;
+  color: #757575;
+  margin-top: 30px;
+}
+.about-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 30px;
+}
+.about-grid-para {
+  font-weight: bold;
 }
